@@ -1,0 +1,35 @@
+/* @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
+
+
+.topnav {
+    background: #DDD;
+    overflow: hidden;
+    position:fixed;
+    max-width:100%;
+    font-family: 'Varela Round', sans-serif;
+    font-size:2.5em;
+    font-weight:bolder;
+    z-index:2;
+    top:0px;
+  }
+  
+  
+  .topnav a {
+      /* margin-left:5%; */
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 0.05em 2.978em;
+    text-decoration: none;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: rgb(196, 228, 255);
+    color: black;
+  }
+  
+  
+  

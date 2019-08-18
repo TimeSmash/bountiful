@@ -1,33 +1,31 @@
-.App {
+.component-body {
   text-align: center;
+  background-color: rgb(22, 122, 246);
+  font-family: 'Arial Rounded MT Bold'
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.component-body h1, p{
+  text-align: center;
+  background-color: rgb(22, 122, 246);
+  color:white;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: rgb(22, 122, 246);
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Arial Rounded MT Bold'
 }
+
+
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
